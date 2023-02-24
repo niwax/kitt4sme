@@ -12,6 +12,7 @@ spec:
     targetPort: 8000
   selector:
     app: extruai
+  type: NodePort
 
 ---
 
