@@ -33,9 +33,9 @@ spec:
         app: extruai
     spec:
       containers:
-        - image: "ghcr.io/c0c0n3/kitt4sme.roughnator:latest"
+        - image: "10.156.0.11/extruai:latest"
           imagePullPolicy: IfNotPresent
-          name: roughnator
+          name: extruai
           ports:
           - containerPort: 8000
             name: http
